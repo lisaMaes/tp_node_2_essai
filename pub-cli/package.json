@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "pub-cli": "index.js"
+    "pub-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "^2.19.0",
+    "tp_node_2_essai": "file:../pub-services"
+  }
 }

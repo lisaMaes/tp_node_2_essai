@@ -6,5 +6,5 @@ function getListPub(){
 }
 
 module.exports = {
-    getListPub : getListPub;
+    getListPub : getListPub
 };

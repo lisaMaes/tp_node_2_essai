@@ -10,5 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pub-services": "../pub-services"
+    "express": "^4.16.4",
+    "pub-services": "../pub-services",
+    "tp_node_2_essai": "file:../pub-services"
+  }
 }
